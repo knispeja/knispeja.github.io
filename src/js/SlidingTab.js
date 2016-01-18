@@ -5,10 +5,10 @@ function SlidingTab(img)
 	this.intimer;
 	
 	this.left = 0;
-	this.interval = 20;
+	this.interval = 6;
 	this.animatingout = false;
 	this.animatingin = false;
-	this.increment = 10;
+	this.increment = 5;
 	this.extenddist = 50;
 	this.imgobj = img;
 	
