@@ -14,7 +14,7 @@ const PERCENT_LANDSCAPE = .3;
 const LSCAPE_MAX_STEEPNESS = 5;
 const LSCAPE_MAX_SLOPE_CHANGE = 1;
 
-const MOON_X = 300;
+const MOON_X = 1100;
 const MOON_Y = 10;
 const MOON_RAD = 45;
 
@@ -280,7 +280,7 @@ var drawLoop = function(){
 	// Display test
 	ctx.font="58px Tahoma";
 	ctx.fillStyle='white';
-	ctx.fillText("Home Page of Jacob Knispel", 100, 65);
+	ctx.fillText("Home Page of Jacob Knispel", 100, 80);
 	
 	// Draw the stars
 	for(i=stars.length-1; i>=0; i--){
