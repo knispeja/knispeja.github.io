@@ -14,11 +14,11 @@ const PERCENT_LANDSCAPE = .3;
 const LSCAPE_MAX_STEEPNESS = 5;
 const LSCAPE_MAX_SLOPE_CHANGE = 1;
 
-const MOON_X = 1100;
+const MOON_X = 900;
 const MOON_Y = 10;
 const MOON_RAD = 45;
 
-var maxClouds = 15;
+var maxClouds = 6;
 var clouds = [];
 var drawLock = false;
 
@@ -290,7 +290,7 @@ var drawLoop = function(){
 	// Color of moon
 	ctx.fillStyle = '#FFFFFF';
 
-	// Draw sun/moon
+	// Draw moon
 	ctx.beginPath();
 	ctx.arc(MOON_X,MOON_Y,MOON_RAD,0,2*Math.PI);	// TODO: make sun/moon travel vertically as well as horz
 	ctx.fill();
