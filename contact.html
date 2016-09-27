@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Modal Box Contact Form</title>
-  <link rel="stylesheet" href="css/genericstyle.css">
-  <link rel="stylesheet" href="css/contactstyle.css">
-</head>
-<body>
-  <form action="MAILTO:knispeja@rose-hulman.edu" class="contact">
-    <fieldset class="contact-inner">
-      <p class="contact-input">
-        <input type="text" name="name" placeholder="Your Name…" autofocus>
-      </p>
 
-      <p class="contact-input">
-        <label for="select" class="select">
-          <select name="subject" id="select">
-            <option value="" selected>Select a subject…</option>
-            <option value="Wanted to contact you..."> I want to get into contact with you</option>
-            <option value="Hello!">Just wanted to say hello</option> 
-            <option value="Suggestion">I have a suggestion</option>
-            <option value="Bug found">I found a bug</option>
-            <option value="">Other</option>
-          </select>
-        </label>
-      </p>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Modal Box Contact Form</title>
+    <link rel="stylesheet" href="css/genericstyle.css">
+    <link rel="stylesheet" href="css/contactstyle.css">
+  </head>
 
-      <p class="contact-input">
-        <textarea name="message" placeholder="Your Message…"></textarea>
-      </p>
+  <body>
+    <form action="MAILTO:knispeja@rose-hulman.edu" class="contact">
+      <fieldset class="contact-inner">
+        <p class="contact-input">
+          <input type="text" name="name" placeholder="Your Name…" autofocus>
+        </p>
 
-      <p class="contact-submit">
-        <input type="submit" value="Send Message">
-      </p>
-    </fieldset>
-  </form>
-</body>
+        <p class="contact-input">
+          <label for="select" class="select">
+            <select name="subject" id="select">
+              <option value="" selected>Select a subject…</option>
+              <option value="Wanted to contact you..."> I want to get into contact with you</option>
+              <option value="Hello!">Just wanted to say hello</option> 
+              <option value="Suggestion">I have a suggestion</option>
+              <option value="Spam bot here">I wanted to spam you with some useless crap</option>
+              <option value="Bug found">I found a bug</option>
+              <option value="">Other</option>
+            </select>
+          </label>
+        </p>
+
+        <p class="contact-input">
+          <textarea name="message" placeholder="Your Message…"></textarea>
+        </p>
+
+        <p class="contact-submit">
+          <input type="submit" value="Send Message">
+        </p>
+      </fieldset>
+    </form>
+  </body>
 </html>
