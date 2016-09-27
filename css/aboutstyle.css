@@ -2,6 +2,10 @@ body {
     padding: 12pt;
 }
 
+#all {
+    padding-top: 5%;
+}
+
 p {
     margin-top: 50pt;
     padding: 8pt;
