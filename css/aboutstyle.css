@@ -1,4 +1,22 @@
 body {
-    padding: 24pt;
+    padding: 12pt;
+}
+
+p {
+    margin-top: 50pt;
+    padding: 8pt;
+    padding-right: 200pt;
     font-size: 18pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 10pt;
+}
+
+img {
+    float: right;
+    margin-top: 6pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+    border-radius: 5pt;
 }
