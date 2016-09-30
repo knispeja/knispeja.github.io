@@ -11,6 +11,7 @@ td, th {
     font-family: Arial, sans-serif;
     font-size: 14px;
     padding: 1px 2px;
+    position: relative;
 }
 
 img {
@@ -27,4 +28,26 @@ img {
 img:hover {
   -webkit-filter: invert(100%) !important;;
   filter: invert(100%);
+}
+
+.tooltiptext {
+    visibility: hidden;
+    max-width: 300px;
+
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    right: 0%;
+
+}
+
+td:hover .tooltiptext {
+    visibility: visible;
 }
