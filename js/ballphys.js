@@ -9,13 +9,13 @@ var drawLock = false;
 
 function Ball(x, y){
 
-	this.elasticity = 0.7;
-	this.radius = 10;
+	this.elasticity = 0.6;
+	this.radius = randRange(8, 12);
 
-	this.r = randRange(170, 190);
+	this.r = randRange(0, 190);
 	this.g = randRange(180, 210);
 	this.b = randRange(240, 255);
-	this.color = "rgba(" + this.r + ", " + this.g + ", " + this.b + ", " + " 0.65)";
+	this.color = "rgba(" + this.r + ", " + this.g + ", " + this.b + ", " + " 1.00)";
 	
 	this.x = x;
 	this.y = y;
@@ -26,7 +26,7 @@ function Ball(x, y){
 	this.draw = function(){
 		ctx.beginPath();
 		ctx.fillStyle = this.color;
-		ctx.arc(this.x - this.radius, this.y - this.radius, this.radius, 2*Math.PI, 0);
+		ctx.arc(this.x, this.y, this.radius, 2*Math.PI, 0);
 		ctx.fill();
 	}
 	
@@ -56,7 +56,7 @@ function Ball(x, y){
 			}
 		}
 		
-		// Left bound
+		// Right bound
 		if((this.x + this.radius) > canvas.width){
 			this.x = canvas.width - this.radius;
 			this.xVel *= -xElast;
@@ -64,8 +64,9 @@ function Ball(x, y){
 				this.xVel = 0;
 			}
 		}
+		// Left bound
 		else if((this.x - this.radius) < 0){
-			this.x = 0;
+			this.x = this.radius;
 			this.xVel *= -xElast;
 			if(Math.abs(this.xVel) < VEL_LOWER_BOUND){
 				this.xVel = 0;
