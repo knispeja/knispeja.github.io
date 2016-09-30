@@ -8,11 +8,11 @@ body {
 
 p {
     margin-top: 50pt;
-    padding: 8pt;
-    padding-right: 200pt;
+    padding: 8pt 200pt 8pt 14pt;
     font-size: 18pt;
     font-family: Tahoma, Verdana, sans-serif;
-    border: 2px solid black;
+    border: 2px solid #000;
+    background-color: #F5E2C8;
     border-radius: 10pt;
 }
 
@@ -21,6 +21,6 @@ img {
     margin-top: 6pt;
     margin-left: 10%;
     margin-right: 10%;
-    border: 1px solid black;
+    border: 1px solid #000;
     border-radius: 5pt;
 }
