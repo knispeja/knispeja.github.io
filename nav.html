@@ -31,6 +31,10 @@
 			}
 		
 			function init(){
+
+				if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+					return; // This functionality doesn't work well on mobile
+				}
 				var img1 = document.getElementById("tab1");
 				var img2 = document.getElementById("tab2");
 				var img3 = document.getElementById("tab3");
