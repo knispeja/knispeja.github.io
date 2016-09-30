@@ -278,9 +278,9 @@ var drawLoop = function(){
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 	// Display test
-	ctx.font="58px Tahoma";
+	ctx.font="76px Tahoma";
 	ctx.fillStyle='white';
-	ctx.fillText("Home Page of Jacob Knispel", 100, 80);
+	ctx.fillText("Jacob Knispel", 150, 100);
 	
 	// Draw the stars
 	for(i=stars.length-1; i>=0; i--){
