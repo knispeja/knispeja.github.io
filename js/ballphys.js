@@ -38,13 +38,7 @@ function Ball(x, y){
 		this.yVel += yGrav;
 		
 		var xElast = this.elasticity;
-		if(this.xVel < VEL_FASTER_BOUND){
-			xElast *= 0.5;
-		}
 		var yElast = this.elasticity;
-		if(this.yVel < VEL_FASTER_BOUND){
-			yElast *= 0.5;
-		}
 		
 		// Bottom bound
 		if((this.y + this.radius) > canvas.height){
@@ -55,7 +49,6 @@ function Ball(x, y){
 				this.yVel = 0;
 			}
 		}
-		
 		// Right bound
 		if((this.x + this.radius) > canvas.width){
 			this.x = canvas.width - this.radius;
@@ -72,6 +65,11 @@ function Ball(x, y){
 				this.xVel = 0;
 			}
 		}
+	}
+
+	this.isCollidingWith = function(other){
+		var dist = Math.pow(this.x-other.x, 2) + Math.pow(this.y-other.y, 2);
+		return dist <= Math.pow(this.radius + other.radius, 2); // change to return null or collision vector/point?
 	}
 }
 
