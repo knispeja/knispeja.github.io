@@ -330,7 +330,6 @@ var landscapetimer;
 var oobstarstimer;
 function resize(){
 	canvas.width = window.innerWidth;
-	canvas.height = window.innerHeight;
 
 	clearTimeout(landscapetimer);
 	landscapetimer = setTimeout(generateLandscape, LANDSCAPE_DRAW_WAIT);
@@ -354,6 +353,8 @@ function init(){
 	generateClouds();
 
 	canvas.style.backgroundColor = '#00003D'
+	canvas.style.height = '100%';
+	canvas.style.width = '100%';
 	
 	drawtimerid = setTimeout(drawLoop, REDRAW_INTERVAL);
 }
