@@ -1,42 +1,167 @@
 <!DOCTYPE html>
-
 <html lang="en">
+<head>
+  <title>Jacob Knispel</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
 
-	<head>
-		<meta name="Author" content="Jacob Knispel">
-		<link rel="shortcut icon" type="image/x-icon" href="resources/favicon.png" />
-		<title>Jacob Knispel</title>
-	</head>
+    .tooltiptext {
+      pointer-events: none;
 
-	<frameset rows=200,* border=0>
-		<frame
-			src=header.html
-			name="header"
-			scrolling=no 
-			marginwidth=0
-			marginheight=0
-			noresize=yes
-		>
-		
-		<frameset 
-				cols=250,* border=0> noresize=yes>
-			<frame src=nav.html name="nav" marginwidth=0
-				marginheight=0 scrolling=no noresize="noresize">
-			<frame src=about.html name="main" scrolling=auto
-				marginwidth=0 marginheight=0 noresize="noresize">
-		</frameset>
-	</frameset>
+      width: 100%;
+      height: 100%;
 
-	<noframes>
-		Your browser doesn't support frames, so I've provided links to my various pages below.
-		<br>
-		Other links:
-		<ul>
-			<li><a href="about.html">About</a></li>
-			<li><a href="gallery.html">Gallery</a></li>
-			<li><a href="experience.html">Experience</a></li>
-			<li><a href="contact.html">Contact Me</a></li>
-		</ul>
-	</noframes>
+      opacity: 0.0;
+      filter: alpha(opacity=50);
 
+      background-color: #000;
+      color: #FFF;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px;
+    }
+
+    .col-sm-3:hover .tooltiptext {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+    }
+
+    .col-sm-3 {
+      margin-bottom: 30px;
+    }
+
+    .p-img-title {
+      font-weight: bold;
+    }
+
+    .img-responsive, .tooltiptext {
+        -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+    }
+    
+    .col-sm-3:hover .img-responsive {
+      -webkit-filter: invert(100%) !important;;
+      filter: invert(100%);
+    }
+  </style>
+</head>
+<body>
+
+<a name="top">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Jacob Knispel</h1>
+    <p>projects by me</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="p-img-title">Other Projects on GitHub</p>
+      <a href="https://github.com/knispeja" target="_blank">
+        <img src="resources/gallery/gh.png" class="img-responsive" style="width:100%" alt="GitHub">
+      </a>
+      <p class="tooltiptext">Link to my GitHub account (knispeja)</p>
+    </div>
+    <div class="col-sm-3">
+      <p class="p-img-title">Cage OS</p>
+      <a href="http://peterlarson.xyz/cageOS/" target="_blank">
+        <img src="resources/gallery/cageos.png" class="img-responsive" style="width:100%" alt="Cage OS">
+      </a>
+      <p class="tooltiptext">Nick Cage themed x86 operating system</p>
+    </div>
+    <div class="col-sm-3">
+      <p class="p-img-title">Daedalus</p>
+      <a href="https://knispeja.github.io/Daedalus/" target="_blank">
+        <img src="resources/gallery/noimage.png" class="img-responsive" style="width:100%" alt="Daedalus">
+      </a>
+      <p class="tooltiptext">Quiz and game based on Greek mythology</p>
+    </div>
+    <div class="col-sm-3">
+      <p class="p-img-title">Stratego</p>
+      <a href="https://knispeja.github.io/Rose-Stratego-Game/" target="_blank">
+        <img src="resources/gallery/stratego.png" class="img-responsive" style="width:100%" alt="Stratego">
+      </a>
+      <p class="tooltiptext">Digital implementation of the classic game Stratego</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="p-img-title">Ray Tracer</p>
+      <a href="http://knispeja.github.io/RayTracer/" target="_blank">
+        <img src="resources/gallery/raytracer.png" class="img-responsive" style="width:100%" alt="Ray Tracer">
+      </a>
+      <p class="tooltiptext">C++ rendering using ray tracing technique</p>
+    </div>
+    <div class="col-sm-3">
+      <p class="p-img-title">Project Labyrinth</p>
+      <a href="https://labyrinth-frontend.herokuapp.com/" target="_blank">
+        <img src="resources/gallery/maze.png" class="img-responsive" style="width:100%" alt="Project Labyrinth">
+      </a>
+      <p class="tooltiptext">Website developed for maze enthusiasts</p>
+    </div>
+    <div class="col-sm-3">
+      <p class="p-img-title">Motion Planning</p>
+      <a href="http://doomerdinger.github.io/Motion-Planning/" target="_blank">
+        <img src="resources/gallery/motion-planning.png" class="img-responsive" style="width:100%" alt="Motion Planning">
+      </a>
+      <p class="tooltiptext">Project exploring path planning techniques</p>
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>End of the line! <a href="#top">Back to top?</a></p>
+</footer>
+
+</body>
 </html>
