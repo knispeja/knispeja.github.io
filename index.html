@@ -57,10 +57,18 @@
             -ms-transition: all 0.5s ease;
                 transition: all 0.5s ease;
     }
+
+    .img-responsive {
+      -webkit-filter: saturate(35%) !important;
+      filter: saturate(35%);
+
+      -webkit-filter: blur(1px) !important;
+      filter: blur(1px);
+    }
     
     .col-sm-3:hover .img-responsive {
-      -webkit-filter: invert(100%) !important;;
-      filter: invert(100%);
+      -webkit-filter: saturate(100%) !important;
+      filter: saturate(100%);
     }
   </style>
 </head>
