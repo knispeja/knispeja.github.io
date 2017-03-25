@@ -1,0 +1,58 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.tooltiptext {
+    pointer-events: none;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.0;
+    filter: alpha(opacity=50);
+
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.col-sm-3:hover .tooltiptext {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.col-sm-3 {
+    margin-bottom: 30px;
+}
+
+.p-img-title {
+    font-weight: bold;
+}
+
+.img-responsive, .tooltiptext {
+    -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.img-responsive {
+    -webkit-filter: saturate(45%) !important;
+    filter: saturate(45%);
+}
+
+.col-sm-3:hover .img-responsive {
+    -webkit-filter: saturate(100%) !important;
+    filter: saturate(100%);
+}
