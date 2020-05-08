@@ -1,4 +1,3 @@
-# Agronaut Devlog
 ## About
 'Agronaut' is the working title for an isometric puzzle game I'm developing in my spare time in Unity.
 The idea is that the player will help a car navigate its way through the world using a limited number of tiles (arrows, teleporters, etc.).
