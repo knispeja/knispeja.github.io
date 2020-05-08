@@ -1,4 +1,18 @@
-# Agronaut Devlog
+---
+title: Agronaut Devlog
+avatar: "resources/favicon.png"
+round-avatar: false
+
+social-network-links:
+  email: "knispel.jacob@gmail.com"
+  github: knispeja
+  linkedin: jacob-knispel
+
+baseurl: ""
+url: "https://knispeja.github.io"
+url-pretty: "knispeja.github.io"
+---
+
 ## About
 'Agronaut' is the working title for an isometric puzzle game I'm developing in my spare time in Unity.
 The idea is that the player will help a car navigate its way through the world using a limited number of tiles (arrows, teleporters, etc.).
