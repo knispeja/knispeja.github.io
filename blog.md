@@ -1,4 +1,17 @@
-# Devlog
+---
+title: Jacob Knispel - Devlog
+avatar: "resources/favicon.png"
+round-avatar: false
+
+social-network-links:
+  email: "knispel.jacob@gmail.com"
+  github: knispeja
+  linkedin: jacob-knispel
+
+baseurl: ""
+url: "https://knispeja.github.io"
+url-pretty: "knispeja.github.io"
+---
 
 ## 5/7/2020: Scraping UFO Data
 I ran across [this repository of interesting public datasets](https://github.com/awesomedata/awesome-public-datasets) recently and, since I was just working on improvements to an older data science project of mine, I thought it would be fun to exercise those muscles again. Without any clear goal, I narrowed down my options to a few datasets with COVID-19 data and [the National UFO Reporting Center database](http://www.nuforc.org/webreports.html), and, as usual, made a decision that made it as easy to escape reality as possible.

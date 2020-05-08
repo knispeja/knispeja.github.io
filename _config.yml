@@ -1,13 +1,1 @@
 theme: jekyll-theme-tactile
-title: Jacob Knispel
-avatar: "resources/favicon.png"
-round-avatar: false
-
-social-network-links:
-  email: "knispel.jacob@gmail.com"
-  github: knispeja
-  linkedin: jacob-knispel
-
-baseurl: ""
-url: "https://knispeja.github.io"
-url-pretty: "knispeja.github.io"
