@@ -8,4 +8,6 @@ social-network-links:
   github: knispeja
   linkedin: jacob-knispel
 
+baseurl: ""
+url: "https://knispeja.github.io"
 url-pretty: "knispeja.github.io"
