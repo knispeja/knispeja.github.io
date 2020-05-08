@@ -24,26 +24,26 @@ Tiles are dragged in from the right panel into the level. Many graphics here are
 ![agronaut sample gameplay](resources/blog/agronaut/agronaut-sample-gameplay.gif)
 
 ## Fully implemented tiles
-  * Simple arrow
-    * Changes the player's direction toward the arrowhead
-    * Also implemented single-use arrow
-    * Also implemented rotational arrow
-  * Spring
-    * Allows the player to jump over obstacles
-  * "Slime"
-    * Reverses player direction when ran into
-    * When landed on from jumping, acts as a spring
-  * Button
-    * Toggles doors and teleporters opend and closed
-    * Color-coded
-  * Freeze bomb
-    * Turns surrounding water into ice, which can be driven across
-    * Ice can only be driven across one time
-  * Teleporter
-    * Simply teleports the player to another teleporter
-    * Color-coded
-  * "Void"
-    * Negates the tile its placed on top of
+* Simple arrow
+ * Changes the player's direction toward the arrowhead
+ * Also implemented single-use arrow
+ * Also implemented rotational arrow
+* Spring
+ * Allows the player to jump over obstacles
+* "Slime"
+ * Reverses player direction when ran into
+ * When landed on from jumping, acts as a spring
+* Button
+ * Toggles doors and teleporters opend and closed
+ * Color-coded
+* Freeze bomb
+ * Turns surrounding water into ice, which can be driven across
+ * Ice can only be driven across one time
+* Teleporter
+ * Simply teleports the player to another teleporter
+ * Color-coded
+* "Void"
+ * Negates the tile its placed on top of
 
 # Devlog
 
