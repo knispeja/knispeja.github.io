@@ -20,7 +20,7 @@ url-pretty: "knispeja.github.io"
 The idea is that the player will help a car navigate its way through the world using a limited number of tiles (arrows, teleporters, etc.).
 
 ## Early Gameplay
-Tiles are dragged in from the right panel into the level. Many graphics here are not final (the flag...), and this GIF is pretty heavily artifacted
+Tiles are dragged in from the right panel into the level. Many graphics here are not final (the flag...), and this GIF is pretty heavily artifacted.
 ![agronaut sample gameplay](resources/blog/agronaut/agronaut-sample-gameplay.gif)
 
 ## Fully implemented tiles
@@ -43,7 +43,7 @@ Tiles are dragged in from the right panel into the level. Many graphics here are
     * Simply teleports the player to another teleporter
     * Color-coded
 * "Void"
-    * Negates the tile its placed on top of
+    * Negates the tile it's placed on top of
 
 # Devlog
 
