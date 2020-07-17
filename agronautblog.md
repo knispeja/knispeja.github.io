@@ -23,7 +23,30 @@ The idea is that the player will help a car navigate its way through the world u
 Tiles are dragged in from the right panel into the level. Many graphics here are not final (the flag...), and this GIF is pretty heavily artifacted.
 ![agronaut sample gameplay](resources/blog/agronaut/agronaut-sample-gameplay.gif)
 
-## Fully implemented tiles
+# Devlog
+
+## Teleportation
+I finally got the teleportation animation looking the way I want it. Previous iterations didn't make it entirely clear that the player was entering the teleporter, which isn't ideal especially since it's already a little hard to tell what you're looking at. At some point I need to soften the pixel art on the edge of the teleporter, but I'm pretty happy with this.
+
+![agronaut teleporting](resources/blog/agronaut/agronaut-teleport-loop.gif)
+
+I'm also pretty pleased with my implementation of the teleporter system -- when a teleporter starts in or is placed into the scene, it registers itself with a teleporter manager, which handles connecting and disconnecting teleporters when they enter and leave the scene. At first the teleporters were managing themselves, which got particularly complicated when I introduced the "void" tile, which can remove any other tile from the board, meaning they would have to be inactive and disconnected temporarily.
+
+## Victory Animation
+The victory animation is finally making progress -- I made a custom particle effect using some more [Kenney Assets](https://www.kenney.nl/assets) and used it to make both a goal tile and a victory trail effect for the car.
+
+![agronaut victory](resources/blog/agronaut/agronaut-victory-1.gif)
+
+## World Map
+Overhauled the world map using some [Kenney Assets](https://www.kenney.nl/assets), and animated the message boxes. Starting to look a lot better -- currently a level has up to four different "completion metrics", and all of these are reflected on the world map now:
+* completed
+* completed with all flowers collected
+* completed with bonus goal met
+* completed with secret level unlocked)
+
+![agronaut world map](resources/blog/agronaut/agronaut-worldmap.gif)
+
+## The weeds -- all fully implemented tiles
 * Simple arrow
     * Changes the player's direction toward the arrowhead
     * Also implemented single-use arrow
@@ -44,12 +67,3 @@ Tiles are dragged in from the right panel into the level. Many graphics here are
     * Color-coded
 * "Void"
     * Negates the tile it's placed on top of
-
-# Devlog
-
-## Teleportation
-I finally got the teleportation animation looking the way I want it. Previous iterations didn't make it entirely clear that the player was entering the teleporter, which isn't ideal especially since it's already a little hard to tell what you're looking at. At some point I need to soften the pixel art on the edge of the teleporter, but I'm pretty happy with this.
-
-![agronaut teleporting](resources/blog/agronaut/agronaut-teleport-loop.gif)
-
-I'm also pretty pleased with my implementation of the teleporter system -- when a teleporter starts in or is placed into the scene, it registers itself with a teleporter manager, which handles connecting and disconnecting teleporters when they enter and leave the scene. At first the teleporters were managing themselves, which got particularly complicated when I introduced the "void" tile, which can remove any other tile from the board, meaning they would have to be inactive and disconnected temporarily.
