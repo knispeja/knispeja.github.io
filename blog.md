@@ -54,11 +54,11 @@ Obviously, these kind of effects don't necessarily make a game look better, but 
 
 Dithering on foliage in Uncharted 4:
 ![Uncharted 4 dither](https://allenchou.net/wp-content/uploads/2016/05/dithering-1-1024x576.png)
-Check out [Allen Chou's brain dump of what he worked on for Uncharted 4](https://allenchou.net/2016/05/a-brain-dump-of-what-i-worked-on-for-uncharted-4/) if you get a chance, it's pretty interesting.
+Check out [Allen Chou's brain dump of what he worked on for Uncharted 4](https://allenchou.net/2016/05/a-brain-dump-of-what-i-worked-on-for-uncharted-4/) if you get a chance (there's a section on dithering), it's pretty interesting.
 
 ## September 2019: Queeb
-Almost a month ago, I made the short trip to Naperville to see the first live show some YouTubers I'm fond of were putting on in their ["We Are Two Different People Tour](https://shop.wearetwodifferentpeopletour.com/). All said, it was pretty good, although it was a little startling to realize how young their target audience was...
+Almost a month ago, I made the short trip to Naperville to see the first live show some YouTubers I'm fond of were putting on in their ["We Are Two Different People Tour"](https://shop.wearetwodifferentpeopletour.com/). All said, it was pretty good, although it was a little startling to realize how young their audience is...
 
-In any case, one of their bits involved a fictional app called "Queeb" which was "sponsoring" their comedy show. The most interesting part of the bit to was the sheer number of people in the crowd that got out their phones and checked to see if it was a real app -- it wasn't. So, I thought it would be fun if I enhanced their joke a bit by creating [a real app](https://play.google.com/store/apps/details?id=io.github.knispeja.queeb) that was in on the joke.
+In any case, one of their bits involved a fictional app called "Queeb" which was "sponsoring" their comedy show. The most interesting part of the bit to me was the number of people in the crowd that checked their phones to see if it was a real app -- it wasn't. So, I thought it would be fun if I enhanced their joke a little by creating [a real app](https://play.google.com/store/apps/details?id=io.github.knispeja.queeb) that was in on the joke.
 
-In the end, it got about 500 downloads before the tour was over -- hopefully some of them made someone laugh!
+In the end, it got about 500 downloads before the tour was over and maintained a 5-star rating. Around 30 of those downloaders emailed the in-app contact link asking for "Queeb Coins" and the like -- hopefully the whole thing made some people smile!
