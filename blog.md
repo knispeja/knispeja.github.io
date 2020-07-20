@@ -13,6 +13,17 @@ url: "https://knispeja.github.io"
 url-pretty: "knispeja.github.io"
 ---
 
+## June 2020: Persona 4 Golden Modding
+With P4G finally coming to PC this month, I've been immersing myself in its modding community. A lot of the decompilation tools out there seem to have trouble with certain files, but despite that I managed to make [a few mods](https://github.com/knispeja/P4G-Disable-Trap-Chests) revolving around modifying what comes out of chests while in dungeons.
+
+The [Reaper in Every Chest](https://gamebanana.com/gamefiles/12061) version of the mod is seeing a good amount of use because it makes grinding easier, but a few bugs have been reported, probably due to the way I had to hack the decompiled code back together. Even if I tried to recompile this particular unmodified decompiled script, I got an error, indicating it's a problem with the tool (either the decompilation or recompilation half).
+
+I also messed around with dialogue editing, but the tools available also make this process hit-or-miss:
+
+![p4g modified yukiko dialogue](https://pbs.twimg.com/media/EbFKJ26WAAAQX7Z?format=jpg&name=small)
+
+There are more things I want to try in this space -- I added a channel to the TV but couldn't seem to get it to show anything but the weather, for instance -- but I think I'll leave it alone for now to see if the tools available improve at all with the arrival of the game to PC.
+
 ## June 2020: Word Games
 I've been playing with the idea of developing a procedurally generated roguelike where word games serve as the primary gameplay mechanic, e.g. anagrams or word searches. I spent a week or so working on a data structure that can efficiently serve a random word of a given length and complexity so that the difficulty of the game can increase as the player progresses. I loaded [SCOWL (spell checker oriented word lists)](http://wordlist.aspell.net/) into it for now and it actually works quite well, despite it not being the primary purpose for those word lists.
 
