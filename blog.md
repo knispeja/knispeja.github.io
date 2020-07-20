@@ -21,9 +21,9 @@ Here's a small demo of the "anagram gate" system I have working already, that wa
 ![vocabula anagram gates](resources/blog/vocabula/vocabula-demo.gif)
 
 ## May 2020: Scraping UFO Data
-I ran across [this repository of interesting public datasets](https://github.com/awesomedata/awesome-public-datasets) recently and, since I was just working on improvements to an older data science project of mine, I thought it would be fun to exercise those muscles again. Without any clear goal, I narrowed down my options to a few datasets with COVID-19 data and [the National UFO Reporting Center database](http://www.nuforc.org/webreports.html), and, as usual, made a decision that made it as easy to escape reality as possible.
+I ran across [this repository of interesting public datasets](https://github.com/awesomedata/awesome-public-datasets) recently and, since I was just working on improvements to an older data science project of mine, I thought it would be fun to exercise those muscles again. Without any clear goal, I narrowed down my options to a few datasets with COVID-19 data and [the National UFO Reporting Center database](http://www.nuforc.org/webreports.html), and decided an escape from reality would be nice...
 
-NUFORC proved deceptively annoying to scrape -- a lot of their links are broken, and an equal number of their report links lead to completely empty pages, so my script ended up being fairly robust. I haven't used Python in awhile, though, so it's pretty crusty... I did manage to get ~90MB of UFO report data in the end, though!
+NUFORC proved deceptively annoying to scrape -- a lot of their links are broken, and an equal number of their report links lead to completely empty pages, so the final version of my scraping script ended up being fairly robust. I haven't used Python in awhile, though, so it's pretty crusty. In the end, I scraped ~90MB of UFO report data dating back decades.
 
 I don't have any big ideas for how to use the data yet, but I found [this awesome website](http://metrocosm.com/ufo-sightings-map.html) that used an older version of the same data to create a UFO sightings map. I'm toying with the idea of doing some NLP to get some interesting insights out of it, but I'm not sure yet.
 Check out my progress [here](https://github.com/knispeja/NuforcAnalysis).
