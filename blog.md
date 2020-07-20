@@ -13,6 +13,13 @@ url: "https://knispeja.github.io"
 url-pretty: "knispeja.github.io"
 ---
 
+## 5/20/2020: Word Games
+I've been playing with the idea of developing a procedurally generated roguelike where word games serve as the primary gameplay mechanic, e.g. anagrams or word searches. I spent a week or so working on a data structure that can efficiently serve a random word of a given length and complexity so that the difficulty of the game can increase as the player progresses. I loaded [SCOWL (spell checker oriented word lists)](http://wordlist.aspell.net/) into it for now and it actually works quite well, despite it not being the primary purpose for those word lists.
+
+Here's a small demo of the "anagram gate" system I have working already, that was procedurally generated with a very basic algorithm.
+
+![vocabula anagram gates](resources/blog/vocabula/vocabula-demo.gif)
+
 ## 5/7/2020: Scraping UFO Data
 I ran across [this repository of interesting public datasets](https://github.com/awesomedata/awesome-public-datasets) recently and, since I was just working on improvements to an older data science project of mine, I thought it would be fun to exercise those muscles again. Without any clear goal, I narrowed down my options to a few datasets with COVID-19 data and [the National UFO Reporting Center database](http://www.nuforc.org/webreports.html), and, as usual, made a decision that made it as easy to escape reality as possible.
 
