@@ -27,7 +27,7 @@ There are more things I want to try in this space -- I added a channel to the TV
 ## June 2020: Word Games
 I've been playing with the idea of developing a procedurally generated roguelike where word games serve as the primary gameplay mechanic, e.g. anagrams or word searches. I spent a week or so working on a data structure that can efficiently serve a random word of a given length and complexity so that the difficulty of the game can increase as the player progresses. I loaded [SCOWL (spell checker oriented word lists)](http://wordlist.aspell.net/) into it for now and it actually works quite well, despite it not being the primary purpose for those word lists.
 
-Here's a small demo of the "anagram gate" system I have working already, that was procedurally generated with a very basic algorithm.
+[Here's a small demo](https://www.dropbox.com/s/0szfblc2qncnwtb/Vocabula-Aug2020.zip?dl=0) (Windows, 18MB) of the "anagram gate" system I have working already, that was procedurally generated with a very basic algorithm. Example gif of the basic gameplay below.
 
 ![vocabula anagram gates](resources/blog/vocabula/vocabula-demo.gif)
 
@@ -48,7 +48,7 @@ I was glancing back through my old projects and looked to the [color glossary](h
 I fixed up the search method (which was barely functional -- not sure what I was thinking), added Crayola colors to the mix, removed the "percentage similar" stat altogether, and added the capability to link to a specific color in case you want to show your friends. Feeling pretty good about where it's at now, probably won't change it for a long time!
 
 ## April 2020: Hatching and Dithering in Unity
-After finishing Return of the Obra Dinn, I've become obsessed with unusual processing effects on 3D gameplay. I came across someone who makes excellent Unity filters such as [this hatching effect](https://github.com/keijiro/KinoHatch) and [this dither effect](https://github.com/keijiro/KinoBinary), which have really interesting implications to me.
+After finishing Return of the Obra Dinn, I've become obsessed with unusual processing effects on 3D gameplay. I came across someone who makes excellent Unity filters such as [this hatching effect](https://github.com/keijiro/KinoHatch) and [this dither effect](https://github.com/keijiro/KinoBinary), which I think are really cool. I used the dither effect to create a retro feel for a demo for a 3D, dialogue-heavy investigation game I'm experimenting with.
 
 Obviously, these kind of effects don't necessarily make a game look better, but they give it a distinct look that can set it apart, which can be much more important in the indie game scene. It can also cover up some modelling imperfections or blandness that is common in a lower-budget game. AAA games have some use cases for these effects as well -- the dither effect is often used in games when objects collide with the camera and transparency is to expensive.
 
