@@ -35,7 +35,7 @@ Overhauled the world map using some [Kenney Assets](https://www.kenney.nl/assets
 * completed
 * completed with all flowers collected
 * completed with bonus goal met
-* completed with secret level unlocked)
+* completed with both the bonus goal met and all flowers collected
 
 ![agronaut world map](resources/blog/agronaut/agronaut-worldmap.gif)
 
