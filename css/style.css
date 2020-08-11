@@ -1,19 +1,27 @@
+.col-sm-3 {
+    margin-bottom: 30px;
+}
+
+.p-img-title {
+    font-weight: bold;
+    font-size: large;
+    min-height: 30px;
+}
+
 /* Add a gray background color and some padding to the footer */
 footer {
     background-color: #f2f2f2;
-    padding: 25px;
+    padding: 15px;
 }
 
+/* Highlight tool tip text on hover */
 .tooltiptext {
     pointer-events: none;
 
     width: 100%;
     height: 100%;
 
-    opacity: 0.0;
-    filter: alpha(opacity=50);
-
-    background-color: #000;
+    background-color: #1b1b1b;
     color: #FFF;
     text-align: center;
     border-radius: 6px;
@@ -25,15 +33,7 @@ footer {
     filter: alpha(opacity=80);
 }
 
-.col-sm-3 {
-    margin-bottom: 30px;
-}
-
-.p-img-title {
-    font-weight: bold;
-}
-
-.img-responsive, .tooltiptext {
+.tooltiptext {
     -webkit-transition: all 0.5s ease;
         -moz-transition: all 0.5s ease;
         -o-transition: all 0.5s ease;
@@ -41,12 +41,9 @@ footer {
             transition: all 0.5s ease;
 }
 
-.img-responsive {
-    -webkit-filter: saturate(75%) !important;
-    filter: saturate(75%);
-}
-
-.col-sm-3:hover .img-responsive {
-    -webkit-filter: saturate(100%) !important;
-    filter: saturate(100%);
+/* Prevent tool tip text highlight on mobile */
+@media (any-hover: none) {
+    .col-sm-3:hover .tooltiptext {
+        opacity: 1.0;
+    }
 }
