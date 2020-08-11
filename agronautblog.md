@@ -20,8 +20,8 @@ url-pretty: "knispeja.github.io"
 The idea is that the player will help a car navigate its way through the world using a limited number of tiles (arrows, teleporters, etc.).
 
 ## Downloads
-[Latest demo (Windows x86)](https://www.dropbox.com/s/lt0gx84jbbjx541/Agronaut-Aug2020.zip?dl=0) (23MB)
 Still a very early version with its fair share of problems. SFX and music are very lacking, but serves as a good demonstration of the levels that have been made so far and the current feature set.
+[Latest demo (Windows x86)](https://www.dropbox.com/s/lt0gx84jbbjx541/Agronaut-Aug2020.zip?dl=0) (23MB)
 
 ## Early Gameplay
 Tiles are dragged in from the right panel into the level. Many graphics here are not final (the flag...), and this GIF is pretty heavily artifacted.
