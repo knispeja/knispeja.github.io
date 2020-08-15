@@ -9,9 +9,9 @@
 .stripes-wrapper {
   width: 70%;
   height: 100%;
-  left: 30px;
+  top: 15px;
 
-  border-radius: 80% 30% 70% 10%;
+  border-radius: 80% 30% 70% 40%;
   filter: drop-shadow(0 0 20px #F29);
   overflow: hidden;
   position: absolute;

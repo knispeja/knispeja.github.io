@@ -13,13 +13,20 @@ img {
     color: #F9E8E2;
 }
 
+.portfolio-text {
+    text-shadow: #F29 -5px -5px 0px;
+}
+
 h1 {
     color: #F9E8E2 !important;
     margin-bottom: 0px !important;
+    text-shadow: #F29 1px 1px 8px;
 }
 
 h2 {
+    color: #2E2D88 !important;
     margin-top: 0px !important;
+    text-shadow: #81D3D1 1px 1px 2px;
 }
 
 a, a:visited {
