@@ -16,15 +16,10 @@ img {
 h1 {
     color: #F9E8E2 !important;
     margin-bottom: 0px !important;
-    font-size: 36pt !important;
 }
 
 h2 {
     margin-top: 0px !important;
-}
-
-p {
-    font-size: 16px !important
 }
 
 a, a:visited {
@@ -41,6 +36,63 @@ a {
 
 .container-fluid, body {
     background-color: #010203 !important;
+}
+
+/* Adaptible font sizes */
+@media (min-width: 0px) {
+    h1 {
+        font-size: 20pt !important;
+    }
+    h2 {
+        font-size: 15pt !important;
+    }
+    .pinklinks {
+        font-size: 9pt !important;
+    }
+}
+@media (min-width: 575.98px) {
+    h1 {
+        font-size: 22pt !important;
+    }
+    h2 {
+        font-size: 18pt !important;
+    }
+    .pinklinks {
+        font-size: 10pt !important;
+    }
+}
+@media (min-width: 767.98px) {
+    h1 {
+        font-size: 32pt !important;
+    }
+    h2 {
+        font-size: 25pt !important;
+    }
+    .pinklinks {
+        font-size: 14pt !important;
+    }
+}
+@media (min-width: 991.98px) {
+    h1 {
+        font-size: 36pt !important;
+    }
+    h2 {
+        font-size: 28pt !important;
+    }
+    .pinklinks {
+        font-size: 16pt !important;
+    }
+}
+@media (min-width: 1199.98px) {
+    h1 {
+        font-size: 54pt !important;
+    }
+    h2 {
+        font-size: 32pt !important;
+    }
+    .pinklinks {
+        font-size: 18pt !important;
+    }
 }
 
 /* Add a gray background color and some padding to the footer */
