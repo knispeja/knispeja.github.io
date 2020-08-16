@@ -1,6 +1,6 @@
 tsParticles.load("particles-js", {
     particles: {
-          number: { value: 400, density: { enable: true, area: 1900 } },
+          number: { value: 100, density: { enable: false } },
           color: { value: '#fff' },
           shape: {
                 type: ["triangle", "circle"],
@@ -59,5 +59,6 @@ tsParticles.load("particles-js", {
                 resize: true
           }
     },
+    fpsLimit: 60,
     detectsRetina: true
 });

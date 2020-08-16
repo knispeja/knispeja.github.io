@@ -22,27 +22,27 @@
 
 .stripe {
   width: 100%;
-  height: 15px;
+  height: 20px;
   background-color: #FF76A0;
   animation: scroll 1s linear infinite;
 }
 
 .last-stripe {
   width: 100%;
-  height: 15px;
+  height: 20px;
   background-color: #FF76A0;
   animation: scrollfade 1s linear infinite;
 }
 
 @keyframes scroll {
   from {
-    transform: translateY(-30px);
+    transform: translateY(-35px);
   }
 }
 
 @keyframes scrollfade {
   from {
-    transform: translateY(-30px);
+    transform: translateY(-35px);
     opacity: 1;
   }
   to {
