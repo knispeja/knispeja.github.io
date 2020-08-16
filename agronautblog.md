@@ -9,8 +9,8 @@ social-network-links:
   linkedin: jacob-knispel
 
 baseurl: ""
-url: "https://knispeja.github.io"
-url-pretty: "knispeja.github.io"
+url: "https://jacobknispel.com"
+url-pretty: "jacobknispel.com"
 ---
 
 # Overview
