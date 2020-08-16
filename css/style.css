@@ -67,6 +67,7 @@ a {
 }
 
 /* Adaptible font sizes */
+
 @media (min-width: 0px) {
     h1 {
         font-size: 10pt !important;
@@ -78,6 +79,7 @@ a {
         font-size: 8pt !important;
     }
 }
+
 @media (min-width: 575.98px) {
     h1 {
         font-size: 22pt !important;
@@ -89,6 +91,7 @@ a {
         font-size: 10pt !important;
     }
 }
+
 @media (min-width: 767.98px) {
     h1 {
         font-size: 32pt !important;
@@ -100,6 +103,7 @@ a {
         font-size: 14pt !important;
     }
 }
+
 @media (min-width: 991.98px) {
     h1 {
         font-size: 36pt !important;
@@ -111,6 +115,7 @@ a {
         font-size: 16pt !important;
     }
 }
+
 @media (min-width: 1199.98px) {
     h1 {
         font-size: 54pt !important;
@@ -124,18 +129,18 @@ a {
 }
 
 /* Add a gray background color and some padding to the footer */
+
 footer {
     background-color: #f2f2f2;
     padding: 15px;
 }
 
 /* Highlight tool tip text on hover */
+
 .tooltiptext {
     pointer-events: none;
-
     width: 100%;
     height: 100%;
-
     background-color: #1b1b1b;
     color: #F9E8E2;
     text-align: center;
@@ -149,13 +154,14 @@ footer {
 
 .tooltiptext {
     -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-            transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 /* Prevent tool tip text highlight on mobile */
+
 @media (any-hover: none) {
     .col-sm-3:hover .tooltiptext {
         opacity: 1.0;
