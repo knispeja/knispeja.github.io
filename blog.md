@@ -9,8 +9,8 @@ social-network-links:
   linkedin: jacob-knispel
 
 baseurl: ""
-url: "https://knispeja.github.io"
-url-pretty: "knispeja.github.io"
+url: "https://www.jacobknispel.com"
+url-pretty: "jacobknispel.com"
 ---
 
 ## June 2020: Persona 4 Golden Modding
@@ -43,7 +43,7 @@ Also, here's a quick sample graph from the data I collected. It's a frequency ch
 ![NUFORC shape frequency chart](resources/blog/nuforc/nuforc-shapefrequency.PNG)
 
 ## May 2020: Color Glossary Improvements
-I was glancing back through my old projects and looked to the [color glossary](https://knispeja.github.io/ColorGlossary) page I made, and had a few issues with it. It provided "percentage similar" to the selected color, which was basically always 99%, so that seemed silly. The search function had some serious issues as well, and it wasn't too hard to find near-duplicate color names in the list.
+I was glancing back through my old projects and looked to the [color glossary](https://www.jacobknispel.com/ColorGlossary) page I made, and had a few issues with it. It provided "percentage similar" to the selected color, which was basically always 99%, so that seemed silly. The search function had some serious issues as well, and it wasn't too hard to find near-duplicate color names in the list.
 
 I fixed up the search method (which was barely functional -- not sure what I was thinking), added Crayola colors to the mix, removed the "percentage similar" stat altogether, and added the capability to link to a specific color in case you want to show your friends. Feeling pretty good about where it's at now, probably won't change it for a long time!
 
