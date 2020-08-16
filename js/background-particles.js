@@ -1,4 +1,4 @@
-particlesJS("particle-container", {
+particlesJS("particles-js", {
     particles: {
           number: { value: 500, density: { enable: true, value_area: 1400 } },
           color: { value: "#ffffff" },
@@ -64,6 +64,8 @@ particlesJS("particle-container", {
     },
     retina_detect: true
 });
+
+/*
 var count_particles, stats, update;
 stats = new Stats();
 stats.setMode(0);
@@ -85,3 +87,4 @@ update = function () {
     requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+*/
