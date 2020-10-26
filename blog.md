@@ -13,6 +13,19 @@ url: "https://www.jacobknispel.com"
 url-pretty: "jacobknispel.com"
 ---
 
+## October 2020: Game jam - Scream Jam 2020
+With Halloween coming up, I decided to enter a popular 10-day horror game jam, [Scream Jam 2020](https://itch.io/jam/scream-jam-2020).
+
+After some deliberation, I decided to revive a small dithering Unity demo I made back in April (there's a post about it below if you're interested) for my entry. I immediately decided to make a detective-style mystery akin to a Phoenix Wright game. Gameplay would involve searching a house for clues and extensive dynamic branching dialogue sequences in order to get enough information to catch a murderer.
+
+This is partially because of an idea I wanted to use for highlighting interactable objects when the player hovers them; by using a second dither camera that renders only a "Highlight" layer, and switching objects to that layer when hovered, I could fade the dither effect in and out on the highlight camera to give the impression that interactable objects gained color when hovered. This looks especially cool when applied to things with striking colors, like blood. There are some examples in [this gameplay video](https://youtu.be/TWTxNanWX-o) if you're interested (there's no sound).
+
+The final game actually had 4 cameras on the main player to achieve the desired effects: the highlight camera I just described, both depth and normals cameras that were used to apply thick outlines to world geometry, and the "basic" dither camera that the other cameras rendered on top of.
+
+My final submission to the jam was [House of Berluscont](https://jacobknispel.itch.io/house-of-berluscont), which I encourage you to try out if you have 20 or 30 minutes. I'm really happy with what I was able to achieve within the time limit, although I would definitely do some things differently next time. This was my first large Unity 3D project, so I made some basic mistakes when constructing the house from premade assets, and had a lot of headaches with the lighting system (until I turned on GPU lightmapping, which cut several minutes off of the process). If I had the time, I would add quite a bit of additional dialogue and open up some of the locked rooms that I didn't have time to complete, as well as improve the sound design, which isn't great right now.
+
+At time of writing, community voting is still in progress. There were a whopping 171 entries to the jam! Playing everyone's entries has been a great experience, and I'm hopefully going to find more time to participate in game jams in the future.
+
 ## June 2020: Persona 4 Golden Modding
 With P4G finally coming to PC this month, I've been immersing myself in its modding community. A lot of the decompilation tools out there seem to have trouble with certain files, but despite that I managed to make [a few mods](https://github.com/knispeja/P4G-Disable-Trap-Chests) revolving around modifying what comes out of chests while in dungeons.
 
