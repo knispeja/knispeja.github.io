@@ -26,6 +26,10 @@ My final submission to the jam was [House of Berluscont](https://jacobknispel.it
 
 At time of writing, community voting is still in progress. There were a whopping 171 entries to the jam! Playing everyone's entries has been a great experience, and I'm hopefully going to find more time to participate in game jams in the future.
 
+UPDATE 10/31: Amazingly, House of Berluscont WON both the "Enjoyment (Best Game)" and the "Story" categories of Scream Jam 2020! I'm really glad people enjoyed it since I put so much time into polishing it. Thanks so much to everyone who voted, and to everyone who put up with me while I was running on very little sleep, and supported me with testing and feedback!
+
+[The ratings](https://itch.io/jam/scream-jam-2020/rate/789448) confirmed to me that my worst areas were SFX and horror. It definitely turned out to be more of a detective game than a horror game; the music is really the only thing that makes it scary. And the music is not great -- I would love to have made it more adaptive and reactive to what's happening, and have better leveling in general (the music gets way too loud at times). Would be awesome to work with a sound designer next time I do a project like this to try to shore up those weaknesses.
+
 ## June 2020: Persona 4 Golden Modding
 With P4G finally coming to PC this month, I've been immersing myself in its modding community. A lot of the decompilation tools out there seem to have trouble with certain files, but despite that I managed to make [a few mods](https://github.com/knispeja/P4G-Disable-Trap-Chests) revolving around modifying what comes out of chests while in dungeons.
 
