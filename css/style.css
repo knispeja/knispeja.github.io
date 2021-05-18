@@ -151,13 +151,17 @@ footer {
 }
 
 img {
-    filter: drop-shadow(0 -2px 4px #F29);
+    filter: drop-shadow(0 -2px 4px #FF2299);
 
     -webkit-transition: all 0.21s ease;
     -moz-transition: all 0.21s ease;
     -o-transition: all 0.21s ease;
     -ms-transition: all 0.21s ease;
     transition: all 0.21s ease;
+}
+
+.col-xs-7:hover img {
+    filter: drop-shadow(0 -2px 99px #FBAED2);
 }
 
 .col-sm-3:hover img {
@@ -171,7 +175,7 @@ img {
 /* Prevent tool tip text highlight on mobile */
 @media (any-hover: none) {
     .col-sm-3:hover img {
-        filter: drop-shadow(0 -2px 5px #F29);
+        filter: drop-shadow(0 -2px 5px #FF2299);
     }
 
     .col-sm-3:hover .tooltiptext {
