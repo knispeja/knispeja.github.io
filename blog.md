@@ -16,7 +16,7 @@ url-pretty: "jacobknispel.com"
 ## June 2021: Agronaut Progress
 Lately I've been spending a lot of time making steady progress towards releasing Agronaut. I'm taking a moment here to [link the devlog](https://jacobknispel.itch.io/agronaut/devlog/261753/2d-reflections-quick-dirty) I wrote detailing how I added reflections to the game recently. I think they add a lot to the visuals and I'm pretty happy with them.
 
-![agronaut reflections example](https://i.imgur.com/7lmxF33.gifv)
+![agronaut reflections example](https://i.imgur.com/7lmxF33.gif)
 
 ## October 2020: Game jam - Scream Jam 2020
 With Halloween coming up, I decided to enter a popular 10-day horror game jam, [Scream Jam 2020](https://itch.io/jam/scream-jam-2020).
