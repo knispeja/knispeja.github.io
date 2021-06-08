@@ -13,6 +13,11 @@ url: "https://www.jacobknispel.com"
 url-pretty: "jacobknispel.com"
 ---
 
+## June 2021: Agronaut Progress
+Lately I've been spending a lot of time making steady progress towards releasing Agronaut. I'm taking a moment here to [link the devlog](https://jacobknispel.itch.io/agronaut/devlog/261753/2d-reflections-quick-dirty) I wrote detailing how I added reflections to the game recently. I think they add a lot to the visuals and I'm pretty happy with them.
+
+![agronaut reflections example](https://i.imgur.com/7lmxF33.gifv)
+
 ## October 2020: Game jam - Scream Jam 2020
 With Halloween coming up, I decided to enter a popular 10-day horror game jam, [Scream Jam 2020](https://itch.io/jam/scream-jam-2020).
 
@@ -74,7 +79,7 @@ Dithering on foliage in Uncharted 4:
 Check out [Allen Chou's brain dump of what he worked on for Uncharted 4](https://allenchou.net/2016/05/a-brain-dump-of-what-i-worked-on-for-uncharted-4/) if you get a chance (there's a section on dithering), it's pretty interesting.
 
 ## September 2019: Queeb
-Almost a month ago, I made the short trip to Naperville to see the first live show some YouTubers I'm fond of were putting on in their ["We Are Two Different People Tour"](https://shop.wearetwodifferentpeopletour.com/). All said, it was pretty good, although it was a little startling to realize how young their audience is...
+Almost a month ago, I made the short trip to Naperville to see the first live show some YouTubers I'm fond of were putting on in their "We Are Two Different People Tour". All said, it was pretty good, although it was a little startling to realize how young their audience is! I felt a little old to be there.
 
 In any case, one of their bits involved a fictional app called "Queeb" which was "sponsoring" their comedy show. The most interesting part of the bit to me was the number of people in the crowd that checked their phones to see if it was a real app -- it wasn't. So, I thought it would be fun if I enhanced their joke a little by creating [a real app](https://play.google.com/store/apps/details?id=io.github.knispeja.queeb) that was in on the joke.
 
