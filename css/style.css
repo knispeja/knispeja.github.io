@@ -66,13 +66,13 @@ a {
 
 @media (min-width: 0px) {
     h1 {
-        font-size: 10pt !important;
+        font-size: 20pt !important;
     }
     h2 {
-        font-size: 8pt !important;
+        font-size: 10pt !important;
     }
     .pinklinks {
-        font-size: 8pt !important;
+        font-size: 14pt !important;
     }
 }
 
@@ -84,7 +84,7 @@ a {
         font-size: 18pt !important;
     }
     .pinklinks {
-        font-size: 10pt !important;
+        font-size: 14pt !important;
     }
 }
 
