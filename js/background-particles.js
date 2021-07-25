@@ -1,6 +1,12 @@
 tsParticles.load("particles-js", {
     particles: {
-          number: { value: 100, density: { enable: false } },
+          number: {
+                value: 70,
+                density: {
+                        enable: true,
+                        value_area: 1100
+                  } 
+            },
           color: { value: '#fff' },
           shape: {
                 type: ["triangle", "circle"],
