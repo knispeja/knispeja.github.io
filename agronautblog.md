@@ -14,6 +14,7 @@ url-pretty: "knispeja.github.io"
 ---
 
 # Overview
+This page is currently unused by the website. Blog is somewhat outdated.
 
 ## About
 'Agronaut' is the working title for an isometric puzzle game I'm developing in my spare time in Unity.
