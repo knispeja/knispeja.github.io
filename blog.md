@@ -35,6 +35,10 @@ At this point I'm just sitting on it, trying to decide how I want to publish the
 
 ![flowa bouncy jumping](https://img.itch.zone/aW1hZ2UvNzgyNTg1LzgwOTYxMzYuZ2lm/original/uDPqUO.gif)
 
+A fun detail about this image is that it actually showcases one of the most complicated systems in the game. I generally avoided introducing height differences to Flowa because, as a 2D isometric game, it can get complicated to display things at different heights properly (since "height" is essentially just an illusion formed by tall sprites).
+
+Normally, when the player jumps off of a pink flower, they need to arc in an even parabola and land back on the ground. This wasn't too complicated to set up, although calculating the arc was a little awkward. The complicated part comes in when the player needs to land on a pink slime block -- if I used that same arc, the player would bounce off of the middle of the slime instead of the top and it looks terrible. I was essentially forced to determine where the player was going to land ahead of time and actively modify the arc of the jump to _pretend_ to land on the top of the slime block! In actuality, the player's shadow is where collisions and position detection are calculated.
+
 ## June 2021: Flowa Progress
 Lately I've been spending a lot of time making steady progress towards releasing Flowa. I'm taking a moment here to [link the devlog](https://jacobknispel.itch.io/flowa/devlog/261753/2d-reflections-quick-dirty) I wrote detailing how I added reflections to the game recently. I think they add a lot to the visuals and I'm pretty happy with them.
 
