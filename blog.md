@@ -13,10 +13,32 @@ url: "https://www.jacobknispel.com"
 url-pretty: "jacobknispel.com"
 ---
 
-## June 2021: Agronaut Progress
-Lately I've been spending a lot of time making steady progress towards releasing Agronaut. I'm taking a moment here to [link the devlog](https://jacobknispel.itch.io/agronaut/devlog/261753/2d-reflections-quick-dirty) I wrote detailing how I added reflections to the game recently. I think they add a lot to the visuals and I'm pretty happy with them.
+## April 2022: Physics Parade & Metaballs
+Lately I've been toying with the idea of making a [Lemmings](https://en.wikipedia.org/wiki/Lemmings_(video_game))-like game with a robust physics system, almost similar to [Crayon Physics](http://www.crayonphysics.com/).
 
-![agronaut reflections example](https://i.imgur.com/7lmxF33.gif)
+I knew I wanted a rope system, but wasn't sure the best way to achieve that in Unity. In the gif below I'm using a system that essentially uses two joints and a line renderer to simulate a rope -- when force is applied to either end of the rope, it will make the rope more taut, unless the rope is already a certain tautness, in which case it applies a force to the object on the other end of the joint. If the rope becomes "too taut" or the force is too strong, the rope breaks. It supports several types of joints, including fixed and "jointless" (a free-hanging end of a rope).
+
+I'd really like to try a different method using a series of joints (basically just a chain) rather than just two joints and custom physics logic because I feel it might be more realistic/reliable, although it will definitely require a lot of processing power.
+
+I also spent awhile piecing together a liquid simulator using metaballs, which was really fun. Shoutout to [Rodrigo Fernandez Diaz](http://codeartist.mx/), whose metaball liquid system I heavily modified to achieve some really basic, but super performant liquids.
+
+I've been really drawn to some of the cool aesthetics metaballs can achieve lately -- I really want to try making a user interface using them similar to what [Luke Holland has achieved here](https://twitter.com/i/status/1089145016931532806).
+
+Anyway, I'm not sure I'll continue work on this project anytime soon, but it was fun to experiment with different physics techniques for awhile.
+
+![example of custom liquid and rope physics](https://i.imgur.com/Fj1xDKO.gif)
+
+## March 2022: Flowa Finishing Touches
+Flowa is basically done! I'm really proud of the game and you can check it out [here](https://jacobknispel.itch.io/flowa).
+
+At this point I'm just sitting on it, trying to decide how I want to publish the thing. It is mostly entirely complete with 100 levels to play and I think it looks great! Watch the trailer [here](https://www.youtube.com/watch?v=OrynuMi4Kyc).
+
+![flowa bouncy jumping](https://img.itch.zone/aW1hZ2UvNzgyNTg1LzgwOTYxMzYuZ2lm/original/uDPqUO.gif)
+
+## June 2021: Flowa Progress
+Lately I've been spending a lot of time making steady progress towards releasing Flowa. I'm taking a moment here to [link the devlog](https://jacobknispel.itch.io/flowa/devlog/261753/2d-reflections-quick-dirty) I wrote detailing how I added reflections to the game recently. I think they add a lot to the visuals and I'm pretty happy with them.
+
+![flowa reflections example](https://i.imgur.com/7lmxF33.gif)
 
 ## October 2020: Game jam - Scream Jam 2020
 With Halloween coming up, I decided to enter a popular 10-day horror game jam, [Scream Jam 2020](https://itch.io/jam/scream-jam-2020).
