@@ -7,19 +7,19 @@ tsParticles.load("particles-js", {
                         value_area: 1100
                   } 
             },
-          color: { value: '#fff' },
+          color: { value: '#f28a0f' },
           shape: {
                 type: ["triangle", "circle"],
                 stroke: { width: 0, color: "#000000" },
                 polygon: { nb_sides: 3 }
           },
           opacity: {
-                value: 0.30,
+                value: 1,
                 random: true,
                 animation: {
                       enable: false,
                       speed: 0.5,
-                      minimumValue: 0.1,
+                      minimumValue: 0.4,
                       sync: false
                   }
           },
@@ -36,7 +36,7 @@ tsParticles.load("particles-js", {
           lineLinked: {
                 enable: true,
                 distance: 30,
-                color: "#ffffff",
+                color: "#f28a0f",
                 opacity: 0.4,
                 width: 1
           },
