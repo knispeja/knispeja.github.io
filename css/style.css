@@ -41,8 +41,13 @@ hr {
 }
 
 h1 {
-    color: #0b0835 !important;
-    text-shadow: #0b0835 -1px -1px 1px, #0c5679 -3px -3px 2px, #e5340b -20px -20px 1px, #f28a0f -40px -40px 1px, #e5340b -60px -60px 1px, #0c5679 -80px -80px 1px, #3f8a8c -100px -100px 1px
+    color: #0c5679 !important;
+    text-shadow: #3f8a8c -1px -1px 4px, 
+        #ffe7bd -20px -20px 0px, #e5340b -20px -20px 3px,
+        #ffe7bd -40px -40px 0px, #f28a0f -40px -40px 3px,
+        #ffe7bd -60px -60px 0px, #e5340b -60px -60px 2px,
+        #ffe7bd -80px -80px 0px, #0c5679 -80px -80px 2px, 
+        #ffe7bd -100px -100px 0px, #3f8a8c -100px -100px 1px
 }
 
 h3 {
@@ -53,7 +58,7 @@ h3 {
 
 .name-text {
     white-space: nowrap !important;
-    margin-top: 20% !important;
+    margin-top: 110px !important;
     margin-bottom: 0% !important;
 }
 
@@ -78,7 +83,7 @@ a {
 
 @media (min-width: 0px) {
     h1 {
-        font-size: 25pt !important;
+        font-size: 28pt !important;
     }
     h2 {
         font-size: 28pt !important;
@@ -90,7 +95,7 @@ a {
 
 @media (min-width: 575.98px) {
     h1 {
-        font-size: 28pt !important;
+        font-size: 35pt !important;
     }
     h2 {
         font-size: 35pt !important;
@@ -102,7 +107,7 @@ a {
 
 @media (min-width: 767.98px) {
     h1 {
-        font-size: 34pt !important;
+        font-size: 36pt !important;
     }
     h2 {
         font-size: 35pt !important;
@@ -132,8 +137,6 @@ a {
         font-size: 50pt !important;
     }
     .pinklinks {
-        padding-right: 10%;
-        text-align: right !important;
         font-size: 24pt !important;
     }
 }
